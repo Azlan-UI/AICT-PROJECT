@@ -22,6 +22,7 @@ header {
 .header-content {
     text-align: center;
     font-family: bodoni;
+    
 }
 
 h1 {
@@ -34,16 +35,18 @@ nav ul {
     margin: 0;
     padding: 0;
     font-size:x-large;
+  
 }
 
 nav li {
     display: inline-block;
     margin-right: 2rem;
     font-size:x-large ;
+    
 }
 
 nav a {
-    color:#fc711b ;
+    color:#79BD8F;
     text-decoration: none;
 }
 
