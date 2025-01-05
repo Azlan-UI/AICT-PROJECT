@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-vector/cartoon-style-recipe-note-with-ingredients_52683-79718.jpg?t=st=1735883746~exp=1735887346~hmac=dcde15360e73338301969798a9ba4b8b1dea2ad908f46f9d909afca463bfaa22&w=900');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.whole {
+    background-color: rgba(255, 255, 255, 0.0);
+    padding: 20px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    position:sticky;
+    top: 300px;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+}
+
+h1 {
+    color: #fc711b;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-transform:uppercase;
+    font-weight: 900;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+div {
+    position: relative;
+}
+
+label svg {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: #fc711b;
+}
+
+input {
+    width: calc(100% - 50px);
+    padding: 12px 10px 12px 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #fc711b;
+    box-shadow: 0 0 4px rgba(255, 140, 66, 0.5);
+}
+
+button {
+    background-color: #fc711b;
+    color: white;
+    padding: .85em 4em;
+    border: none;
+    border-radius: 1000px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    text-transform:uppercase;
+}
+
+button:hover {
+    background-color: #ca5811;
+}
+
+a {
+    color: #fc711b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.error-message {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: 0.85rem;
+    color: red;
+    margin-top: 5px;
+}
+

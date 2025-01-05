@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e1b063;
-    background: url('https://images.pexels.com/photos/20254481/pexels-photo-20254481/free-photo-of-food-on-a-table-during-banquet.jpeg?auto=compress&cs=tinysrgb&w=800') no-repeat center center fixed;
+    background: url('https://img.freepik.com/premium-photo/berry-smoothie-gooseberries-raspberries-white-currants_220925-939.jpg?uid=R164487363&ga=GA1.1.896011322.1726914163&semt=ais_hybrid') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -40,7 +40,7 @@ nav li {
 }
 
 nav a {
-    color: #d35400;
+    color: #79BD8F;
     text-decoration: none;
 }
 
@@ -49,6 +49,8 @@ nav a {
     margin: 0 auto;
     padding: 2rem;
 }
+
+
 .categories {
     text-align: center;
     margin-bottom: 2rem;
@@ -64,6 +66,7 @@ nav a {
     border-radius: 5px;
     font-size: larger;
 }
+
 
 .recipe-card {
     display: grid;
@@ -82,7 +85,6 @@ nav a {
     height: auto;
     margin-bottom: 1rem;
     border-radius: 5px;
-   
 }
 
 .recipe-details h2 {
@@ -117,6 +119,8 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+
+
 }
 
 .footer-content {

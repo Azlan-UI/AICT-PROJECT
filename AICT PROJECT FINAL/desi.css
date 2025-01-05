@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e1b063;
-    background: url('https://media.istockphoto.com/id/1405088603/photo/assorted-famous-indian-and-pakistani-food-table-vegetable-biryani-butter-chicken-paneer.webp?a=1&b=1&s=612x612&w=0&k=20&c=KDehCwaQt1GZHQKZPdSIegzQwAFrxoFggV8r0EAvHZ8=') no-repeat center center fixed;
+    background: url('https://as1.ftcdn.net/v2/jpg/06/50/20/42/1000_F_650204285_gvyBbePWn0Fewr6zpWINMODAy9vPnHWB.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -47,7 +47,7 @@ nav a {
 .container {
     max-width: 960px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 

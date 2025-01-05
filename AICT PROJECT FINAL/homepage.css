@@ -1,19 +1,22 @@
 
 body {
+    width: 100%;
+    height: 100%;
     font-family: serif;
     margin: 0;
     padding: 0;
     background-color:#e1b063;
-    background: url('https://images.pexels.com/photos/3026802/pexels-photo-3026802.jpeg?auto=compress&cs=tinysrgb&w=1200') no-repeat center center fixed;
-            background-size: cover;
+    background: url('https://img.freepik.com/free-photo/ingredients-near-pizza_23-2147772081.jpg?t=st=1736002670~exp=1736006270~hmac=d099bd66109036528610753a6b722703d9ea22026743824f750571d979a59e3a&w=2000') no-repeat center center fixed;
+    background-size: 100% 100%;
 }
 
 header {
-    background-image: url('https://img.freepik.com/free-photo/flat-lay-mexican-food-composition-with-copyspace_23-2148140229.jpg?ga=GA1.1.1333110793.1734970454&semt=ais_hybrid'); /* Replace with your food image */
-    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/celery-red-yellow-pepper-paprika-vegetarian-salad-bamboo-bowl-dark-background-top-view-space-text-selective-focus_253362-13939.jpg?w=2000'); 
+    background-size: 100% 100%;
     background-position: center;
-    color: #79BD8F;
+    color: #fc711b;
     padding: 2rem 0;
+    border-bottom: 10px solid #fc711b;
 }
 
 .header-content {
@@ -40,31 +43,53 @@ nav li {
 }
 
 nav a {
-    color:#79BD8F ;
+    color:#fc711b ;
     text-decoration: none;
 }
 
 .container {
-    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
     padding: 2rem;
 }
 
 .categories {
-    text-align: center;
-    margin-bottom: 2rem;
+   
+    width: 95%;
+    height:400px ;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    border: 3px solid #fc711b;
+  margin: 2rem;
+  border-radius: 10px;
+    
 }
 
-.categories a {
-    display: inline-block;
-    margin: 0 1rem;
-    padding: 1rem 2rem;
-    background-color: #333;
-    color: #d35400;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: larger;
+.category-design {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content:right;
+    padding-right: 40px;
+    align-items:center;
+    color: #e66616;
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+    text-decoration: none; 
+    margin: 10px; 
 }
+
+.circular-div:hover {
+    transform: scale(1.1); 
+}
+
 
 .popular-recipes {
     display: grid;
@@ -91,13 +116,7 @@ nav a {
 }
 
 footer {
-    background-color:#d35400;
-    color: #F4D9D0;
-    text-align: center;
-    padding: 1rem 0;
-}
-footer {
-    background-color: #d35400;
+    background-color: #ff6a0d;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -109,7 +128,8 @@ footer {
 }
 .footer-content h3 {
     margin-bottom: 10px;
-    color: #f39c12;
+    color: #ffffff;
+    font-weight: bold;
 }
 .footer-content p {
     margin: 5px 0;
@@ -118,11 +138,12 @@ footer {
     margin-top: 15px;
 }
 .social-icons a {
-    color: #f39c12;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 10px;
     font-size: 20px;
+    font-weight: 500px;
 }
 .social-icons a:hover {
-    color: #fff;
+    text-decoration: underline;
 }
